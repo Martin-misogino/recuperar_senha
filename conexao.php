@@ -7,7 +7,7 @@
  */
 function conectar()
 {
-    $conexao =  mysqli_connect("localhost", "root", "", "esc_senha");
+    $conexao =  mysqli_connect("localhost", "root", "", "recuperar_senha");
 
     if ($conexao == false) {
         echo "Erro ao conectar à base de dados. Nº do erro:"
